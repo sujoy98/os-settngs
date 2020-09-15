@@ -1,0 +1,4 @@
+1. Make all the /etc/apt/sources.list end with, contrib non-free
+2. sudo apt update
+3. sudo apt install firmware-iwlwifi
+4. sudo modprobe -r iwlwifi;sudo modprobe iwlwifi
