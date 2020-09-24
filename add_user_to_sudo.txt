@@ -1,0 +1,2 @@
+Step 1: # /usr/sbin/visudo
+Step 2: userName ALL(ALL:ALL) ALL
