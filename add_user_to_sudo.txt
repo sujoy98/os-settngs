@@ -4,4 +4,4 @@ Step 2: < scroll down to bottom >
 
 ADD STEP 3 IN LAST LINE REPLACE userName WITH YOUR CURRENT LINUX USERNAME.
 
-Step 3: userName ALL(ALL:ALL) ALL
+Step 3: userName ALL=(ALL:ALL) ALL
