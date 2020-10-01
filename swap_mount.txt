@@ -1,0 +1,7 @@
+1. fdisk -l  // check kor swap drive
+2. fdisk /dev/sdaX  // X is the partition number
+3. edit /etc/fstab
+4. /dev/sdaX         swap        swap    defaults        0 0  // add this new line
+5. mkswap /dev/sdaX
+6. swapon -a
+7. cat /proc/meminfo  // confirm swap file size
