@@ -1,0 +1,1 @@
+1.sudo apt remove firefox thunderbird transmission-gtk mx-conky lbreakout2 gnome-mahjongg peg-e swell-foop clementine gnome-ppp hexchat geany
