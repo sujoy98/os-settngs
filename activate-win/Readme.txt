@@ -1,0 +1,1 @@
+1. Run as admin, wait till all the process completes.
