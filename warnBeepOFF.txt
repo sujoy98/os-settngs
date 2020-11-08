@@ -1,5 +1,17 @@
+// DEBIAN
+
 Step 1. sudo echo "blacklist pcspkr" > /etc/modprobe.d/pcspkr-blacklist.conf
 
 Step 2. sudo depmod -a
 
 Step 3. sudo update-initramfs -u
+
+// REDHAT
+
+1. rmmod -v pcspkr
+
+2. vi /etc/modprobe.d/blacklist
+    add line 'blacklist pcspkr'
+
+3. vi /etc/rc.d/rc.local
+    add line '/sbin/rmmod pcspkr'
