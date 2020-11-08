@@ -1,0 +1,5 @@
+1. List all kernel: rpm -qa kernel
+2. Running kernel: uname -r
+3. Remove kernel: sudo dnf remove kernel-x.x.x-xxx.xxxx.x86_64
+4. Update Grub: sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+5. Limit Kernel install: 'sudo nano /etc/dnf/dnf.conf' and change 'installonly_limit=X'
