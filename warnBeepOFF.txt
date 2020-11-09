@@ -6,7 +6,7 @@ Step 2. sudo depmod -a
 
 Step 3. sudo update-initramfs -u
 
-// REDHAT
+Aditional steps :-
 
 1. rmmod -v pcspkr
 
