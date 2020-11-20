@@ -1,0 +1,1 @@
+$ sudo rm /var/cache/dnf/metadata_lock.pid
