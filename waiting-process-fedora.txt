@@ -1,1 +1,4 @@
+// List cached process
+      ls /var/cache/dnf/*pid
+// Remove processes
 $ sudo rm /var/cache/dnf/metadata_lock.pid
