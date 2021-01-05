@@ -1,0 +1,5 @@
+1. sudo apt policy
+2. sudo ls /etc/apt/sources.list.d/
+  find what to delete
+  
+3. sudo rm -rf /etc/apt/sources.list.d/someThing.list
