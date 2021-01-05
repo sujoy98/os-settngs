@@ -1,0 +1,7 @@
+1. List all the python version
+    $ ls /usr/bin/python*
+    
+2. Set version priority (ex- python 3.9 2) 2-> the priority order
+    update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+    
+    update-alternatives --install /usr/bin/python python /usr/bin/python3.9 2
