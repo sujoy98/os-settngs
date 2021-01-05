@@ -1,0 +1,2 @@
+1. sudo apt-get install software-properties-common
+2. sudo apt update
