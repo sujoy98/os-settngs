@@ -1,3 +1,12 @@
-bcdedit /set {bootmgr} path \EFI\ubuntu\grubx64.efi
+WINDOWS: 
 
-bcdedit /deletevalue {bootmgr} path \EFI\ubuntu\grubx64.efi
+1. bcdedit /set {bootmgr} path \EFI\ubuntu\grubx64.efi
+2. bcdedit /deletevalue {bootmgr} path \EFI\ubuntu\grubx64.efi
+
+LINUX (UBUNTU):
+
+1. sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
+2. sudo add-apt-repository -y ppa:yannubuntu/boot-repair
+3. sudo apt-get update
+4. sudo apt-get install -y boot-repair && boot-repair
+5. boot-repair
