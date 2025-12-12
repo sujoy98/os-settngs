@@ -1,0 +1,35 @@
+WINDOWS STABILITY TO-DO LIST (B450M DS3H + WD Green SSD)
+
+1.  Install AMD Chipset Drivers
+
+-   AMD GPIO Driver (Promontory)
+-   AMD PCI Device Driver
+-   AMD PSP Driver
+-   AMD SMBus Driver
+-   AMD GPIO Driver
+-   AMD Ryzen Power Plan
+
+2.  BIOS Settings
+
+-   CSM = Disabled
+-   Secure Boot = Disabled
+-   SATA Mode = AHCI
+-   Above 4G Decoding = Enabled
+-   IOMMU = Auto
+-   Fast Boot = Disabled
+
+3.  Disable Fast Startup Control Panel → Power Options → Choose what
+    power buttons do → Uncheck ‘Turn on fast startup’
+
+4.  Disable PCIe Link State Power Management Control Panel → Power
+    Options → Advanced → PCI Express → Link State Power Management → Off
+
+5.  System Integrity Repairs sfc /scannow dism /online /cleanup-image
+    /restorehealth
+
+6.  Enable TRIM fsutil behavior set disabledeletenotify 0
+
+7.  Check SSD Health Get-PhysicalDisk | Select FriendlyName, MediaType,
+    Size, HealthStatus, OperationalStatus
+
+8.  Optional: Check Disk chkdsk C: /scan
