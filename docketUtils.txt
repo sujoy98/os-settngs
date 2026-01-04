@@ -1,0 +1,6 @@
+Docker cli:
+1. Check Status : "docker ps"
+2. See Start Timestamp : "docker inspect -f '{{.State.StartedAt}}' sql_server"
+3. To stop docker container : "docker stop sql_server"
+4. To start docker container : "docker start sql_server"
+5. Stop autostart on boot : "docker update --restart=no sql_server"
